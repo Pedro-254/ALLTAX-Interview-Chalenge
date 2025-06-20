@@ -1,0 +1,62 @@
+{
+  "categorias": [
+    {
+      "nome": "Eletrônicos",
+      "produtos": [
+        {
+          "nome": "Celular",
+          "marcas": ["Samsung", "Apple", "Xiaomi"]
+        },
+        {
+          "nome": "Notebook",
+          "marcas": ["Dell", "HP", "Lenovo"]
+        }
+      ]
+    },
+    {
+      "nome": "Roupas",
+      "produtos": [
+        {
+          "nome": "Camiseta",
+          "marcas": ["Nike", "Adidas", "Puma"]
+        },
+        {
+          "nome": "Calça",
+          "marcas": ["Levis", "Diesel", "Calvin Klein"]
+        }
+      ]
+    },
+    {
+      "nome": "Alimentos",
+      "produtos": [
+        {
+          "nome": "Arroz",
+          "marcas": ["Tio João", "Camil", "Urbano"]
+        },
+        {
+          "nome": "Feijão",
+          "marcas": ["Kicaldo", "Camil", "Namorado"]
+        }
+      ]
+    }
+  ],
+  "vendas": {
+    "Samsung": [150, 90, 180, 120],
+    "Apple": [110, 70, 130, 95],
+    "Xiaomi": [80, 95, 60, 140],
+    "Dell": [50, 75, 40, 100],
+    "HP": [65, 80, 70, 90],
+    "Lenovo": [90, 60, 85, 70],
+    "Nike": [200, 180, 250, 190],
+    "Adidas": [170, 220, 210, 180],
+    "Puma": [160, 140, 200, 170],
+    "Levis": [130, 100, 150, 140],
+    "Diesel": [90, 130, 110, 120],
+    "Calvin Klein": [100, 80, 120, 90],
+    "Tio João": [250, 230, 300, 270],
+    "Camil": [200, 210, 180, 260],
+    "Urbano": [220, 180, 260, 240],
+    "Kicaldo": [170, 190, 160, 210],
+    "Namorado": [180, 160, 200, 190]
+  }
+}

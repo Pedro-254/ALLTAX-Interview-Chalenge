@@ -1,0 +1,21 @@
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Selects{
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+
+  & div{
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+p{
+  width: fit-content;
+  font-weight: bold;
+}
