@@ -98,7 +98,7 @@ function Graph() {
 
       {/* Título */}
       <h2 style={{ textAlign: 'center' }}>
-        {marcaSelecionada ? `Sales by Month for: ${marcaSelecionada}` : 'Selecione uma marca'}
+        {marcaSelecionada ? `Vendas por Mês: ${marcaSelecionada}` : 'Selecione uma marca'}
       </h2>
 
       {/* Gráfico */}
@@ -135,7 +135,8 @@ function Graph() {
             />
             <Line
               dataKey="vendas"
-              stroke="#8884d8"
+              stroke="#00A8FF"
+              strokeWidth={2}
               isAnimationActive={false}
             >
               <LabelList dataKey="vendas" position="top" />
