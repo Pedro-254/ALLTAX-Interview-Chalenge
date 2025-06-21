@@ -11,7 +11,7 @@ const gerarDadosGrafico = (vendasArray) => {
   }));
 };
 
-function Graph() {
+function GraphLocal() {
   const [categoriaSelecionada, setCategoriaSelecionada] = useState('');
   const [produtoSelecionado, setProdutoSelecionado] = useState('');
   const [marcaSelecionada, setMarcaSelecionada] = useState('');
@@ -148,4 +148,4 @@ function Graph() {
   );
 }
 
-export default Graph;
+export default GraphLocal;
